@@ -1,0 +1,6 @@
+##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ezyitias/reeshu/projectgallery/text-mirror-AI
+    - /bin/cp -R * $DEPLOYPATH
